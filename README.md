@@ -15,13 +15,17 @@ e) Docker
 ---------------------------------
 1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
 
-2 - Open terminal
+2 - To run kafka, ensure that docker desktop is running as its used for running kafka
 
-3 - Run the below commmands:
-
-   To run kafka, ensure that docker desktop is running as its used for running kafka
+3 - Open terminal and run below commmand:
     
     docker-compose up
+    
+   If you get any memory issues, you can clean up already running docker instances by running the below:
+   
+    docker stop $(docker ps -a -q)
+
+    docker system prune -a --volumes
     
 
 ## Steps to run eureka-server:
