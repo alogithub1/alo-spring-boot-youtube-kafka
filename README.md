@@ -5,16 +5,24 @@ a - Spring boot
 b - Youtube or Google api
 
 c) Kafka
+
 d) Swagger
+
 e) Docker
 
 
-## Running SpringBootRestAPIsH2:
+## Steps to run
 ---------------------------------
-a - Go to folder "SpringBootRestAPIsH2"
+1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
 
-b - Open terminal
+2 - Open terminal
 
+3 - Run the below commmands:
+
+   To run kafka, ensure that docker desktop is running as its used for running kafka
+    
+    docker-compose up
+    
 c - Run the below commmands:
 
     mvn clean install
