@@ -2,13 +2,15 @@
 
 a) Spring boot
 
-b) Youtube or Google api
+b) Eureka discovery
 
-c) Kafka
+c) Youtube or Google api
 
-d) Swagger
+d) Kafka
 
-e) Docker
+e) Swagger
+
+f) Docker
 
 
 ## Steps to run kafka:
