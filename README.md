@@ -37,6 +37,8 @@ e) Docker
     mvn clean install
     
     mvn spring-boot:run
+    
+3 - Check http://localhost:8761/
 
 
 ## Steps to run spring-youtube-service:
