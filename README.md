@@ -11,7 +11,7 @@ d) Swagger
 e) Docker
 
 
-## Steps to run
+## Steps to run kafka:
 ---------------------------------
 1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
 
@@ -23,26 +23,45 @@ e) Docker
     
     docker-compose up
     
-c - Run the below commmands:
+
+## Steps to run eureka-server:
+---------------------------------
+1 - Go to folder "eureka-server"
+
+2 - Open terminal
+    
+3 - Run the below commmands:
+
+    mvn clean install
+    
+    mvn spring-boot:run
+
+
+## Steps to run spring-youtube-service:
+---------------------------------
+1 - Go to folder "spring-youtube-service"
+
+2 - Open terminal
+    
+3 - Run the below commmands:
 
     mvn clean install
     
     mvn spring-boot:run
     
-d - If all go fine, you should be able to access H2 db console (http://localhost:8080/h2_console) in the browser
-
-
-## Running Angular6SpringBoot-Client:
----------------------------------
-a - Go to folder "Angular6SpringBoot-Client"
-
-b - Open terminal
-
-c - Run the below commmands:
-
-    npm install
     
-    npm start
+## Steps to run spring-boot-kafka-sample:
+---------------------------------
+1 - Go to folder "spring-boot-kafka-sample"
+
+2 - Open terminal
+    
+3 - Run the below commmands:
+
+    mvn clean install
+    
+    mvn spring-boot:run
+    
     
 d - If all go fine, you can access the URL (http://localhost:4200/) in the browser. From there you can do crud operations.
 
@@ -55,10 +74,6 @@ a - change the proprerties in "application.properties"
 b - include relevant dependency in pom.xml
 
 c - Follow the same above steps
-
-
-### Reference and credit goes to:
-https://grokonez.com/frontend/angular/angular-6/angular-6-h2-in-memory-database-spring-boot-example-spring-data-jpa-restapis-crud-example
 
 
 ## Good Day!  :)
