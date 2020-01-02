@@ -32,9 +32,7 @@ e) Docker
 ---------------------------------
 1 - Go to folder "eureka-server"
 
-2 - Open terminal
-    
-3 - Run the below commmands:
+2 - Open terminal adn run below commmands:
 
     mvn clean install
     
@@ -45,9 +43,7 @@ e) Docker
 ---------------------------------
 1 - Go to folder "spring-youtube-service"
 
-2 - Open terminal
-    
-3 - Run the below commmands:
+2 - Open terminal adn run below commmands:
 
     mvn clean install
     
@@ -58,9 +54,7 @@ e) Docker
 ---------------------------------
 1 - Go to folder "spring-boot-kafka-sample"
 
-2 - Open terminal
-    
-3 - Run the below commmands:
+2 - Open terminal adn run below commmands:
 
     mvn clean install
     
@@ -71,13 +65,7 @@ d - If all go fine, you can access the URL (http://localhost:4200/) in the brows
 
 
 ### Bonus:
-If you need to use other databases like MySQL or PostgreSQL: 
 
-a - change the proprerties in "application.properties"
-
-b - include relevant dependency in pom.xml
-
-c - Follow the same above steps
 
 
 ## Good Day!  :)
