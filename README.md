@@ -1,22 +1,9 @@
-# Angular6 + Springboot rest crud + h2 in-memory db
-
-
-FYI note: 
-
-Used Mac + Java 1.8 + Maven 3.5.4 + npm 6.4.1 to run this app, but it should work on any OS
-
-
-
-This repo has:
-
-a - Angular 6 client (Angular6SpringBoot-Client),
-
-b - Springboot rest crud api (SpringBootRestAPIsH2) which uses H2 in memory database
-
-
-To clone this repo:
-
-git clone https://github.com/alogithub1/Angular6_SpringBoot_H2.git
+# Simple spring micro service application which consists of 
+a) Spring boot
+b) Youtube or Google api
+c) Kafka
+d) Swagger
+e) Docker
 
 
 ## Running SpringBootRestAPIsH2:
