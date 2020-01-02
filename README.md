@@ -1,4 +1,4 @@
-# Simple spring micro service application which consists of 
+# Simple spring micro service application which consists of:
 a - Spring boot
 b - Youtube or Google api
 c) Kafka
