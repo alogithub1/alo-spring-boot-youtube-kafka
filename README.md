@@ -32,7 +32,7 @@ e) Docker
 ---------------------------------
 1 - Go to folder "eureka-server"
 
-2 - Open terminal adn run below commmands:
+2 - Open terminal and run below commmands:
 
     mvn clean install
     
@@ -47,9 +47,9 @@ e) Docker
 
 2 - Open terminal adn run below commmands:
 
-    mvn clean install
+    mvn clean install -DskipTests
     
-    mvn spring-boot:run
+    mvn spring-boot:run -DskipTests
     
     
 ## Steps to run spring-boot-kafka-sample:
@@ -58,9 +58,9 @@ e) Docker
 
 2 - Open terminal adn run below commmands:
 
-    mvn clean install
+    mvn clean install -DskipTests
     
-    mvn spring-boot:run
+    mvn spring-boot:run -DskipTests
     
     
 d - If all go fine, you can access the URL (http://localhost:4200/) in the browser. From there you can do crud operations.
