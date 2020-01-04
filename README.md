@@ -61,7 +61,7 @@ For other project specific ones, check relevant pom.xml
     
     
 ## Steps to run spring-boot-kafka-sample:
----------------------------------
+
 1 - Go to folder "spring-boot-kafka-sample"
 
 2 - Open terminal adn run below commmands:
@@ -72,10 +72,6 @@ For other project specific ones, check relevant pom.xml
     
     
 d - If all go fine, you can access the URL (http://localhost:4200/) in the browser. From there you can do crud operations.
-
-
-### Bonus:
-
 
 
 ## Good Day!  :)
