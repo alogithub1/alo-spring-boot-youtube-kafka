@@ -88,4 +88,6 @@ Expand operations and you can test the API by clicking "Try it out" option in Sw
 Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool is a GUI" - http://www.kafkatool.com/
 
 
+If you encounter any issue or error, no need to get panic and just check your console and you can easily figure out whats going on.
+
 ## Good Day!  :)
