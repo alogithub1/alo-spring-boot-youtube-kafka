@@ -19,6 +19,7 @@ Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fi
 
 For other project specific ones, check relevant pom.xml
 
+
 ## Steps to run kafka:
 ---------------------------------
 1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
@@ -59,6 +60,10 @@ For other project specific ones, check relevant pom.xml
     
     mvn spring-boot:run -DskipTests
     
+3 - Check http://localhost:9000/swagger-ui.html
+
+Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
+
     
 ## Steps to run spring-boot-kafka-sample:
 
@@ -70,8 +75,13 @@ For other project specific ones, check relevant pom.xml
     
     mvn spring-boot:run -DskipTests
     
-    
-d - If all go fine, you can access the URL (http://localhost:4200/) in the browser. From there you can do crud operations.
+3 - Check http://localhost:8060/swagger-ui.html
+
+Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
+
+* it uses 
+
+Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool is a GUI" - http://www.kafkatool.com/
 
 
 ## Good Day!  :)
