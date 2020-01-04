@@ -1,4 +1,4 @@
-# Simple spring micro service application which consists of:
+# A simple spring micro service application which consists of the below:
 
 a) Spring boot
 
@@ -12,6 +12,14 @@ e) Swagger
 
 f) Docker
 
+
+## Platform:
+---------------------------------
+Used the below to build and run this app
+MacOS
+Java 8
+Maven 3.6.3
+For other project specific ones, check relevant pom.xml
 
 ## Steps to run kafka:
 ---------------------------------
