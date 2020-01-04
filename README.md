@@ -15,10 +15,8 @@ f) Docker
 
 ## Platform:
 ---------------------------------
-Used the below to build and run this app
-MacOS
-Java 8
-Maven 3.6.3
+Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fine with windows or linux environment as well.
+
 For other project specific ones, check relevant pom.xml
 
 ## Steps to run kafka:
