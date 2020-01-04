@@ -52,6 +52,10 @@ For project specific dependencies like spring boot, check relevant pom.xml
 
 ## Steps to run spring-youtube-service:
 ---------------------------------
+
+This uses google api to search youtube vidoes and get results. You will need to setup your keys.
+Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
+
 1 - Go to folder "spring-youtube-service"
 
 2 - Open terminal adn run below commmands:
