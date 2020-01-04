@@ -17,7 +17,7 @@ f) Docker
 ---------------------------------
 Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fine with windows or linux environment as well.
 
-For other project specific ones, check relevant pom.xml
+For project specific dependencies like spring boot, check relevant pom.xml
 
 
 ## Steps to run kafka:
@@ -26,7 +26,7 @@ For other project specific ones, check relevant pom.xml
 
 2 - To run kafka, ensure that docker desktop is running as its used for running kafka
 
-3 - Open terminal and run below commmand:
+3 - Open terminal and run below commmand to bring up Kafka.
     
     docker-compose up
     
@@ -79,7 +79,7 @@ Expand operations and you can test the API by clicking "Try it out" option in Sw
 
 Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
 
-* it uses 
+* it uses ExecutorService to initiate thread pools and process messages
 
 Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool is a GUI" - http://www.kafkatool.com/
 
