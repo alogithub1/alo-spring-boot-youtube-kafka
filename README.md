@@ -87,11 +87,9 @@ Expand operations and you can test the API by clicking "Try it out" option in Sw
     
     mvn spring-boot:run -DskipTests
     
-3 - Check http://localhost:8060/swagger-ui.html
+3 - Check http://localhost:8060/swagger-ui.html Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
 
-Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
-
-* it uses ExecutorService to initiate thread pools and process messages
+* It uses ExecutorService to initiate thread pools and process messages
 
 Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool" - http://www.kafkatool.com/
 
