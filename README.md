@@ -22,14 +22,14 @@ f) Docker
 
 Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fine with windows or linux environment as well.
 
-For project specific dependencies like spring boot, check relevant pom.xml
+For project specific dependencies like spring boot, see relevant pom.xml
 
 -----------------------------------
 ## Steps to run kafka:
 
 1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
 
-2 - To run kafka, ensure that docker desktop is running as its used for running kafka
+2 - To run kafka, ensure that ## docker desktop ## is running as its used for running kafka
 
 3 - Open terminal and run below commmand to bring up Kafka.
     
