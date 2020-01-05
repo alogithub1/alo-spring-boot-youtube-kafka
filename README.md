@@ -17,7 +17,7 @@ e) Swagger
 
 f) Docker
 
-Note - The numbers like 1,2,3,4 listed in the overview diagram is to run it in a sequential order so that all pieces will work together, otherwise it does not add any value.
+Note: The numbers like 1,2,3,4 listed in the overview diagram is to run it in a sequential order so that all pieces will work together, otherwise it does not add any value.
 
 "Youtube service" and "Kafka service" use "Eureka server" for service registry.
 
