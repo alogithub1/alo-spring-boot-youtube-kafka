@@ -29,7 +29,7 @@ For project specific dependencies like spring boot version, see relevant pom.xml
 
 1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
 
-2 - To run kafka, ensure that ## docker desktop ## is running as its used for running kafka
+2 - To run kafka, ensure that docker desktop is running as its used for running kafka
 
 3 - Open terminal and run below commmand to bring up Kafka.
     
@@ -99,4 +99,4 @@ Incase if you want to check the kafka messages, you may use any tool, i used "Ka
 If you encounter any issue or error, no need to get panic and just check your console and you can easily figure out whats going on.
 
 
-## Hope you enjoyed! Good Day :)
+## Hope you enjoyed reading it! Good Day :)
