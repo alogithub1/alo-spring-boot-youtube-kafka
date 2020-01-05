@@ -1,4 +1,4 @@
-# Simple spring micro service application which consists of:
+# A simple spring micro service application which consists of the below:
 
 a) Spring boot
 
@@ -13,13 +13,20 @@ e) Swagger
 f) Docker
 
 
+## Platform:
+---------------------------------
+Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fine with windows or linux environment as well.
+
+For project specific dependencies like spring boot, check relevant pom.xml
+
+
 ## Steps to run kafka:
 ---------------------------------
 1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
 
 2 - To run kafka, ensure that docker desktop is running as its used for running kafka
 
-3 - Open terminal and run below commmand:
+3 - Open terminal and run below commmand to bring up Kafka.
     
     docker-compose up
     
@@ -45,6 +52,10 @@ f) Docker
 
 ## Steps to run spring-youtube-service:
 ---------------------------------
+
+This uses google api to search youtube vidoes and get results. You will need to setup your keys.
+Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
+
 1 - Go to folder "spring-youtube-service"
 
 2 - Open terminal adn run below commmands:
@@ -53,9 +64,13 @@ f) Docker
     
     mvn spring-boot:run -DskipTests
     
+3 - Check http://localhost:9000/swagger-ui.html
+
+Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
+
     
 ## Steps to run spring-boot-kafka-sample:
----------------------------------
+
 1 - Go to folder "spring-boot-kafka-sample"
 
 2 - Open terminal adn run below commmands:
@@ -64,12 +79,15 @@ f) Docker
     
     mvn spring-boot:run -DskipTests
     
-    
-d - If all go fine, you can access the URL (http://localhost:4200/) in the browser. From there you can do crud operations.
+3 - Check http://localhost:8060/swagger-ui.html
+
+Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
+
+* it uses ExecutorService to initiate thread pools and process messages
+
+Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool is a GUI" - http://www.kafkatool.com/
 
 
-### Bonus:
-
-
+If you encounter any issue or error, no need to get panic and just check your console and you can easily figure out whats going on.
 
 ## Good Day!  :)
