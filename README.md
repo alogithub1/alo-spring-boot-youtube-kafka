@@ -17,6 +17,14 @@ e) Swagger
 
 f) Docker
 
+Note - The numbers like 1,2,3,4 listed in the overview diagram is to run it in a sequential order so that all pieces will work together, otherwise it does not add any value.
+
+"Youtube service", "Kafka service" use "Eureka server" for service registry.
+
+"Kafka service" gets "Youtube service" info from "Eureka server" and then uses it to fetch youtube videos using Spring boot RestTemplate. Also "Kafka service" sends messages to kafka topic (topic name: test-1) and receives messages from kafka topic (topic name: test-2).
+
+
+
 -----------------------------------
 ## Platform:
 
