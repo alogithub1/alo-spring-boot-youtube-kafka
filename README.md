@@ -43,13 +43,13 @@ For project specific dependencies like spring boot version, see relevant pom.xml
     
     docker-compose up
     
-   If you get any memory issues, you can clean up already running docker instances by running the below:
+   If you get any memory issues, you can clean up already running docker instances by running the below commands:
    
     docker stop $(docker ps -a -q)
 
     docker system prune -a --volumes
     
-Note: There are many ways to install and run Kafka, here we are using docker which is one of the easy way to set it up
+Note: There are many ways to install and run Kafka and here we are using docker which is one of the easy way to set it up
 
 -----------------------------------
 ## Steps to run eureka-server:
@@ -98,7 +98,7 @@ Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
 Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool" - http://www.kafkatool.com/
 
 
-If you encounter any issue or error, NO need to get panic and just check your console and you can easily figure out whats going on.
+If you encounter any issue or error, NO need to get panic and just check the message on your console and you can easily figure out whats going on.
 
 
 ## Hope you enjoyed reading it! Good Day :)
