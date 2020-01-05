@@ -17,7 +17,7 @@ e) Swagger
 
 f) Docker
 
-=================================
+-----------------------------------
 ## Platform:
 Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fine with windows or linux environment as well.
 
