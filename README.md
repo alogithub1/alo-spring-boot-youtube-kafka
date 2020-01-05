@@ -98,7 +98,7 @@ Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
 Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool" - http://www.kafkatool.com/
 
 
-If you encounter any issue or error, no need to get panic and just check your console and you can easily figure out whats going on.
+If you encounter any issue or error, NO need to get panic and just check your console and you can easily figure out whats going on.
 
 
 ## Hope you enjoyed reading it! Good Day :)
