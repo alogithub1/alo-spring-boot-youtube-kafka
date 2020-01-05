@@ -72,9 +72,7 @@ Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
     
     mvn spring-boot:run -DskipTests
     
-3 - Check http://localhost:9000/swagger-ui.html
-
-Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
+3 - Check http://localhost:9000/swagger-ui.html Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
 
 -----------------------------------
 ## Steps to run spring-boot-kafka-sample:
