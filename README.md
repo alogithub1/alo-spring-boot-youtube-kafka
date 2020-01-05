@@ -1,4 +1,4 @@
-![Overview]("Springboot-youtube-kafka-overview.png.png")
+![Overview]("https://github.com/alogithub1/alo-spring-boot-youtube-kafka/blob/master/Springboot-youtube-kafka-overview.png")
 
 # A simple spring micro service application which consists of the below:
 
