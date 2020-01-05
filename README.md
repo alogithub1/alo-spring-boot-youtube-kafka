@@ -3,7 +3,7 @@
 ![Overview](https://github.com/alogithub1/alo-spring-boot-youtube-kafka/blob/master/Springboot-youtube-kafka-overview.png)
 
 
-# A simple spring micro service application which consists of the below:
+# A simple spring boot micro service application which consists of the below:
 
 a) Spring boot
 
@@ -20,9 +20,9 @@ f) Docker
 -----------------------------------
 ## Platform:
 
-Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fine with windows or linux environment as well.
+Used MacOS, Java 8, Maven 3.6.3, Docker desktop to build and run this app. But it should work fine with windows or linux environment as well.
 
-For project specific dependencies like spring boot, see relevant pom.xml
+For project specific dependencies like spring boot version, see relevant pom.xml
 
 -----------------------------------
 ## Steps to run kafka:
@@ -41,6 +41,8 @@ For project specific dependencies like spring boot, see relevant pom.xml
 
     docker system prune -a --volumes
     
+Note: There are many ways to install and run Kafka and using docker is one of the easy way to set up
+
 -----------------------------------
 ## Steps to run eureka-server:
 
@@ -54,10 +56,12 @@ For project specific dependencies like spring boot, see relevant pom.xml
     
 3 - Check http://localhost:8761/
 
+
+
 -----------------------------------
 ## Steps to run spring-youtube-service:
 
-This uses google api to search youtube vidoes and get results. You will need to setup your keys.
+This service uses google api to search youtube vidoes and get results. You will need to setup your keys.
 Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
 
 1 - Go to folder "spring-youtube-service"
