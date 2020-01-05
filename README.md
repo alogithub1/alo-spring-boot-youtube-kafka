@@ -19,13 +19,14 @@ f) Docker
 
 -----------------------------------
 ## Platform:
+
 Used MacOS, Java 8, Maven 3.6.3 to build and run this app. But it should work fine with windows or linux environment as well.
 
 For project specific dependencies like spring boot, check relevant pom.xml
 
-
+-----------------------------------
 ## Steps to run kafka:
----------------------------------
+
 1 - Clone this repo and go to folder "alo-spring-boot-youtube-kafka"
 
 2 - To run kafka, ensure that docker desktop is running as its used for running kafka
@@ -40,9 +41,9 @@ For project specific dependencies like spring boot, check relevant pom.xml
 
     docker system prune -a --volumes
     
-
+-----------------------------------
 ## Steps to run eureka-server:
----------------------------------
+
 1 - Go to folder "eureka-server"
 
 2 - Open terminal and run below commmands:
@@ -53,9 +54,8 @@ For project specific dependencies like spring boot, check relevant pom.xml
     
 3 - Check http://localhost:8761/
 
-
+-----------------------------------
 ## Steps to run spring-youtube-service:
----------------------------------
 
 This uses google api to search youtube vidoes and get results. You will need to setup your keys.
 Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
@@ -72,7 +72,7 @@ Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
 
 Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
 
-    
+-----------------------------------
 ## Steps to run spring-boot-kafka-sample:
 
 1 - Go to folder "spring-boot-kafka-sample"
@@ -93,5 +93,6 @@ Incase if you want to check the kafka messages, you may use any tool, i used "Ka
 
 
 If you encounter any issue or error, no need to get panic and just check your console and you can easily figure out whats going on.
+
 
 ## Good Day!  :)
