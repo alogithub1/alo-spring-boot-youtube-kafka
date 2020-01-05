@@ -41,7 +41,7 @@ For project specific dependencies like spring boot version, see relevant pom.xml
 
     docker system prune -a --volumes
     
-Note: There are many ways to install and run Kafka and using docker is one of the easy way to set up
+Note: There are many ways to install and run Kafka, here we are using docker which is one of the easy way to set it up
 
 -----------------------------------
 ## Steps to run eureka-server:
@@ -54,9 +54,7 @@ Note: There are many ways to install and run Kafka and using docker is one of th
     
     mvn spring-boot:run
     
-3 - Check http://localhost:8761/
-
-
+3 - Check http://localhost:8761/ 
 
 -----------------------------------
 ## Steps to run spring-youtube-service:
