@@ -89,12 +89,12 @@ Check https://www.youtube.com/watch?v=V4KqpIX6pdI to see how to set it up.
     
     mvn spring-boot:run -DskipTests
     
-3 - Check http://localhost:8060/swagger-ui.html Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
-
 * It uses Java ExecutorService to initiate thread pools and process messages concurrently
 
 Incase if you want to check the kafka messages, you may use any tool, i used "Kafka Tool" - http://www.kafkatool.com/
 
+
+3 - Check http://localhost:8060/swagger-ui.html Expand operations and you can test the API by clicking "Try it out" option in Swagger UI
 
 If you encounter any issue or error, NO need to panic and just check the message on your console and you can easily figure out whats going on.
 
